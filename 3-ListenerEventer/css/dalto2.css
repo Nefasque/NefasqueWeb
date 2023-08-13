@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cec;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #222;
+}
+
+.conteiner {
+  background-color: #ccc;
+  width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-template-areas: "n e m i";
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+}
+
+.bg-1 {
+  background-color: #eee;
+}
+
+.bg-2 {
+  background-color: #ddd;
+}
+
+.item {
+  margin: 5px;
+  padding: 5px;
+  min-width: 50px;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+}
+
+.nombre {
+  grid-area: n;
+}
+
+.email {
+  grid-area: e;
+}
+
+.materia {
+  grid-area: m;
+}
+
+.form {
+  grid-area: i;
+  justify-content: space-between;
+}
+
+.form select {
+  margin: auto 5px;
+  left: 0;
+  border: none;
+  background: none;
+}
+
+button {
+  width: auto;
+  border: none;
+  background-color: #6f6;
+  padding: 10px 60px;
+  margin: 10px auto;
+
+}
