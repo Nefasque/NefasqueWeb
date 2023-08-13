@@ -1,0 +1,33 @@
+body {
+  font-size: 1.5em;
+  color: #000;
+  background-color: #222;
+}
+
+.conteiner-flex {
+  width: 100%;
+  height: 90vh;
+  border: 1px solid #111;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.getData {
+  flex-basis: 90%;
+  height: 100px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: none;
+  background-color: #111;
+  color: #fff;
+}
+
+.data {
+  margin: 10px;
+  max-height: 50px;
+  padding: 2rem;
+  background-color: #fee;
+  border-radius: 1rem;
+  flex-grow: 1;
+}
